@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Meeting Minutes ChatBot',
+      title: 'Meeting ChatBot',
       theme: new ThemeData(
         primaryColor: Colors.deepPurple.shade800,
         accentColor: Colors.green,
@@ -43,7 +43,7 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
                 controller: _textController,
                 onSubmitted: _handleSubmitted,
                 decoration: new InputDecoration.collapsed(
-                  hintText: "Start Talking ...",
+                  hintText: "Schedule A Meeting ...",
                 ),
               ),
             ),
@@ -96,7 +96,7 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
     return new Scaffold(
       appBar: new AppBar(
         centerTitle: true,
-        title: new Text("Meeting Minutes ChatBot"),
+        title: new Text("Meeting ChatBot"),
       ),
       body: new Column(
         children: <Widget>[
