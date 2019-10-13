@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Meeting ChatBot',
       theme: new ThemeData(
-        primaryColor: Colors.deepPurple.shade800,
+        primaryColor: Colors.deepBlue,
         accentColor: Colors.green,
       ),
       debugShowCheckedModeBanner: false,
