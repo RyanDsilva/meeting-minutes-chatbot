@@ -7,6 +7,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_dialogflow: ^0.1.2
+  flutter_tts: ^0.6.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -14,4 +15,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/credentials.json
+    - assets/dialogflow.json
